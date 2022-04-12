@@ -35,12 +35,9 @@ stop.addEventListener(`click`, () => {
 
 // BONUS
 // 4
-const startingMinutes = 1;
+const startingMinutes = 2;
 let time = startingMinutes * 60;
-
 let countdownEl = document.querySelector(`#countdown`);
-
-
 let timer = setInterval(updateCountdown, 1000);
 
 function updateCountdown() {
@@ -57,4 +54,7 @@ function updateCountdown() {
         clearInterval(timer)
     };
 }
+
+
+
 
